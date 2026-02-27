@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --secondery-clor: rgb(212, 175, 55);
+    --primary-color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 8000px;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 4px solid var(--secondery-clor);
+}
+
+.navbar .nav-item .nav-link {
+    color: var(--secondery-clor);
+}
+
+.nav-link {
+    color: var(--secondery-clor);
+}
+
+.hero .container h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero {
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
