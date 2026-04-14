@@ -104,7 +104,8 @@ span button:hover {
 
 /* end of about */
 /*get in touch*/
-.get-in-touch .h2{
+
+#touch-text {
     font-size: 3rem;
     line-height: 1;
     margin-bottom: calc(.25rem * 4);
@@ -116,6 +117,6 @@ span button:hover {
     margin-inline-start: .83em;
     margin-inline-end: .83em;
     unicode-bidi: isolate;
-}
 
+}
 /* end of get in touch */
