@@ -6,14 +6,14 @@
 :root {
     --secondery-clor: rgb(212, 175, 55);
     --primary-color: black;
-    --hover-color: #b8941f;
+    --hover-color: #8f7318;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 8000px;
+    height: 2000px;
 }
-
+/* start of navbar */
 .navbar {
     background-color: black;
     border-bottom: 4px solid var(--secondery-clor);
@@ -40,9 +40,17 @@ body {
     color: var(--secondery-clor);
 }
 
-.nav-link {
+.navbar .nav-item .nav-link:hover {
+    color: var(--hover-color) !important;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus{
     color: var(--secondery-clor);
 }
+
+/* end of navbar */
+/* start of hero */
 
 .hero .container h1 {
     text-transform: uppercase;
@@ -91,3 +99,23 @@ span button {
 span button:hover {
     background-color: var(--hover-color);
 }
+/* end of hero */
+/* start of about */
+
+/* end of about */
+/*get in touch*/
+.get-in-touch .h2{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: calc(.25rem * 4);
+    font-weight: 500;
+    color: var(--primary-color);
+    display: block;
+    margin-block-start: .83em;
+    margin-block-end: .83em;
+    margin-inline-start: .83em;
+    margin-inline-end: .83em;
+    unicode-bidi: isolate;
+}
+
+/* end of get in touch */
