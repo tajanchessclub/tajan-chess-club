@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --secondery-clor: rgb(212, 175, 55);
+    --primary-color: black;
+    --hover-color: #8f7318;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 2000px;
+}
+/* start of navbar */
+.navbar {
+    background-color: black;
+    border-bottom: 4px solid var(--secondery-clor);
+    padding-block: calc(0.25rem * 4);
+    padding-inline: calc(0.25rem * 6);
+    border-bottom-width: 4px;
+    z-index: 50;
+    top: calc(0.25rem * 0);
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: 0.15s;
+    outline-style: none;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--secondery-clor);
+}
+
+
+.navbar .nav-item .nav-link {
+    color: var(--secondery-clor);
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--hover-color) !important;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus{
+    color: var(--secondery-clor);
+}
+
+/* end of navbar */
+/* start of hero */
+
+.hero .container h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3.75rem;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,50%),rgba(0,0,0,75%)), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.hero-text2 {
+    color: var(--secondery-clor);
+    font-size: 1.125rem;
+}
+
+.hero-text {
+    color: white;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    
+}
+
+span button {
+    font-size: 0.857rem;
+    font-weight: 500;
+    background-color: var(--secondery-clor);
+    color: var(--primary-color);
+    border-radius: calc(0.625rem - 2px);
+    gap: calc(0.25rem * 2);
+    height: calc(0.25rem * 10);
+    display: inline-flex;
+    padding-inline: calc(0.25rem *8);
+    line-height: calc(1.25 / .875);
+    white-space: nowrap;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: 0.15s;
+    outline-style: none;
+}
+
+span button:hover {
+    background-color: var(--hover-color);
+}
+/* end of hero */
+/* start of about */
+
+/* end of about */
+/*get in touch*/
+.get-in-touch .h2{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: calc(.25rem * 4);
+    font-weight: 500;
+    color: var(--primary-color);
+    display: block;
+    margin-block-start: .83em;
+    margin-block-end: .83em;
+    margin-inline-start: .83em;
+    margin-inline-end: .83em;
+    unicode-bidi: isolate;
+}
+
+/* end of get in touch */
