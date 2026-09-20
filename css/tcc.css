@@ -166,20 +166,24 @@ span button:hover {
 }
 .footer {
   background-color: black;
-  border-top: 4px;
+  border-top-width: 4px;
   border-top-color: rgb(212, 175, 55);
+  border-top-style: solid;
 }
 .footer.text1 {
   color: white;
+  font-size: 1.65rem;
+  line-height: 1.65;
 }
 .footer.text2 {
-  color: rgb(143, 142, 142);
+  color: var(--color-gray-400);
+
   font-size: 1.15rem;
   line-height: 1.65;
 }
 .footer.text3 {
-  color: rgb(143, 142, 142);
-  font-size: 1.15rem;
+  color: var(--color-gray-400);
+  font-size: 1rem;
   line-height: 1.65;
 }
 
