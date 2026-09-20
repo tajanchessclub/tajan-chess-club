@@ -164,6 +164,24 @@ span button:hover {
 .tcc {
   color: rgb(212, 175, 55);
 }
+.footer {
+  background-color: black;
+  border-top: 4px;
+  border-top-color: rgb(212, 175, 55);
+}
+.footer.text1 {
+  color: white;
+}
+.footer.text2 {
+  color: rgb(143, 142, 142);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+.footer.text3 {
+  color: rgb(143, 142, 142);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
 
 @media (max-width: 575.98px) {
   .img-div {
