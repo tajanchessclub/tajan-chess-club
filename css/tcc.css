@@ -11,7 +11,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 2000px;
+  /* height: 2000px; */
 }
 /* start of navbar */
 .navbar {
@@ -169,22 +169,23 @@ span button:hover {
   border-top-width: 4px;
   border-top-color: rgb(212, 175, 55);
   border-top-style: solid;
-}
-.footer.text1 {
-  color: white;
-  font-size: 1.65rem;
-  line-height: 1.65;
-}
-.footer.text2 {
-  color: var(--color-gray-400);
 
-  font-size: 1.15rem;
-  line-height: 1.65;
-}
-.footer.text3 {
-  color: var(--color-gray-400);
-  font-size: 1rem;
-  line-height: 1.65;
+  .text1 {
+    color: white;
+    font-size: 1.65rem;
+    line-height: 1.65;
+  }
+  text2 {
+    color: rgb(230, 229, 229);
+
+    font-size: 1.15rem;
+    line-height: 1.65;
+  }
+  text3 {
+    color: rgb(230, 229, 229);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
 }
 
 @media (max-width: 575.98px) {
