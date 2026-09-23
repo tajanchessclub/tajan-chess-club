@@ -180,15 +180,15 @@ span button:hover {
 }
 
 .sub-button{
-  color: white;
-  background-color: green;
+  color: var(--primary-color);
+  background-color: var(--secondery-color);
   border-radius: 7px;
   width: 80px;
 }
 
 .sub-button:hover{
-  color: green;
-  background-color: white;
+  color: var(--secondery-color);
+  background-color: var(--primary-color);
 }
 .card{
   border: 1px solid var(--secondery-color);
