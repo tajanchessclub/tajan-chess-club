@@ -183,7 +183,7 @@ span button:hover {
   color: white;
   background-color: var(--secondery-color);
   border-radius: 7px;
-  width: 80px;
+  width: 500px;
 }
 
 .sub-button:hover{
