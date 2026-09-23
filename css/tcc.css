@@ -7,6 +7,7 @@
   --secondery-color: rgb(212, 175, 55);
   --primary-color: black;
   --hover-color: #8f7318;
+  --spacing: .25rem;
 }
 
 body {
@@ -145,21 +146,64 @@ span button:hover {
   color: rgb(105, 101, 101);
 }
 
-.container-card {
-  padding-top: calc(1.25rem * 6);
-  padding-inline: calc(0.25 * 6);
-  gap: calc(0.25 * 1.5);
-  align-items: flex-start;
-  grid-template-rows: auto auto;
-  grid-auto-rows: min-content;
-  display: grid;
-  unicode-bidi: isolate;
-  color: var(--secondery-color);
+/* Center the form box on page, but align form labels and inputs to the left */
+.get-in-touch form {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
 }
 
-.\container\/card-header {
-  container: card-header / inline-size;
+/* Make inputs, labels, and textarea stack vertically and span full width */
+.get-in-touch label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
+
+.get-in-touch input[type="text"],
+.get-in-touch input[type="email"],
+.get-in-touch textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  border-color: var(--secondery-color);
+}
+
+/* Keep the checkbox and its label aligned on the same row */
+.get-in-touch .check-span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch .check-span label {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.sub-button{
+  color: white;
+  background-color: green;
+  border-radius: 7px;
+  width: 80px;
+}
+
+.sub-button:hover{
+  color: green;
+  background-color: white;
+}
+
+
+.vertical-hr {
+  width: 0px;
+  height: 200px;
+  border: none;
+  border-left: 2px solid #333;
+  margin: 0 15px;
+  display: inline-block;
+}
+
 /* end of get in touch */
 .tcc {
   color: rgb(212, 175, 55);
@@ -203,4 +247,9 @@ span button:hover {
   .img-div {
     height: 600px;
   }
+}
+
+.our-programs{
+  background-color: black;
+  height: 100px;
 }
