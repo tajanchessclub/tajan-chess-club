@@ -190,29 +190,24 @@ span button:hover {
   color: green;
   background-color: white;
 }
-
-
-.vertical-hr {
-  width: 0px;
-  height: 200px;
-  border: none;
-  border-left: 2px solid #333;
-  margin: 0 15px;
-  display: inline-block;
+.card{
+  border: 1px solid var(--secondery-color);
+  box-shadow: 5px 3px 10px var(--secondery-color);
 }
-
 .card-header {
   background-color: var(--primary-color);
   color: var(--secondery-color);
 }
 
-/* شيل max-width: 500px ومحاذاة margin: 0 auto وخليها كدة */
 .get-in-touch form {
   text-align: left;
   width: 100%;
 }
 
-/* end of get in touch */
+iframe {
+  border-radius: 8px;
+}
+
 .tcc {
   color: rgb(212, 175, 55);
 }
