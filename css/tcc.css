@@ -146,14 +146,12 @@ span button:hover {
   color: rgb(105, 101, 101);
 }
 
-/* Center the form box on page, but align form labels and inputs to the left */
 .get-in-touch form {
   text-align: left;
   max-width: 500px;
-  margin: 0 auto; /* Center the form horizontally */
+  margin: 0 auto;
 }
 
-/* Make inputs, labels, and textarea stack vertically and span full width */
 .get-in-touch label {
   display: block;
   margin-bottom: 0.5rem;
@@ -169,7 +167,6 @@ span button:hover {
   border-color: var(--secondery-color);
 }
 
-/* Keep the checkbox and its label aligned on the same row */
 .get-in-touch .check-span {
   display: flex;
   align-items: center;
