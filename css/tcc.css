@@ -180,7 +180,7 @@ span button:hover {
 }
 
 .sub-button{
-  color: var(--primary-color);
+  color: white;
   background-color: var(--secondery-color);
   border-radius: 7px;
   width: 80px;
