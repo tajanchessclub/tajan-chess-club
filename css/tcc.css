@@ -192,7 +192,7 @@ span button:hover {
 }
 .card{
   border: 1px solid var(--secondery-color);
-  box-shadow: 5px 3px 10px var(--secondery-color);
+  box-shadow: 3px 3px 10px var(--secondery-color);
 }
 .card-header {
   background-color: var(--primary-color);
