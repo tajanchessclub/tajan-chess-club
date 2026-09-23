@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --secondary-color: rgb(212, 175, 55);
+  --secondery-color: rgb(212, 175, 55);
   --primary-color: black;
   --hover-color: #8f7318;
   --spacing: .25rem;
