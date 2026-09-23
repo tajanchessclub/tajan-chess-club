@@ -106,67 +106,97 @@
   <div class="join-tcc"></div>
   <div class="get-in-touch py-5">
     <div class="text-center mb-4">
-      <h2 id="touch-text">
-        Get in <span style="color: rgb(212, 175, 55)">Touch</span>
-      </h2>
-      <p class="touch-text2">We'd love to hear from you</p>
+      <div class="get-in-touch py-5">
+        <div class="text-center mb-5">
+          <h2 id="touch-text">
+            Get in <span style="color: rgb(212, 175, 55)">Touch</span>
+          </h2>
+          <p class="touch-text2">We'd love to hear from you</p>
+        </div>
+
+        <div class="container">
+          <div class="row g-4 align-items-start">
+
+            <div class="col-12 col-md-7 col-lg-8">
+              <form class="text-start m-0 w-100 style-form">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Enter your name:</label>
+                  <input class="form-control get-in" type="text" id="name" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="e-mail" class="form-label">Email:</label>
+                  <input class="form-control get-in" id="e-mail" type="email" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <div class="mb-3">
+                  <label for="grades" class="form-label">Choose your grade:</label>
+                  <select id="grades" name="grades" class="form-select">
+                    <option value="None">None</option>
+                    <optgroup label="Boys Preparatory">
+                      <option value="7A">7A</option>
+                      <option value="7B">7B</option>
+                      <option value="7C">7C</option>
+                      <option value="7A+">7A+</option>
+                      <option value="8A">8A</option>
+                      <option value="8B">8B</option>
+                      <option value="8C">8C</option>
+                      <option value="9A">9A</option>
+                      <option value="9B">9B</option>
+                      <option value="9C">9C</option>
+                    </optgroup>
+                    <optgroup label="Boys Secondary">
+                      <option value="10A">10A</option>
+                      <option value="10B">10B</option>
+                      <option value="10C">10C</option>
+                      <option value="11A">11A</option>
+                      <option value="11B">11B</option>
+                      <option value="11C">11C</option>
+                      <option value="12A">12A</option>
+                      <option value="12B">12B</option>
+                      <option value="12C">12C</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" id="checkbox">
+                  <label class="form-check-label" for="checkbox">In Tajan</label>
+                </div>
+
+                <button class="btn sub-button" type="submit">Submit</button>
+              </form>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column gap-3">
+              <div class="card text-center w-100 mb-5">
+                <div class="card-header">
+                  <b>E-mail:</b>
+                </div>
+                <div class="card-body">
+                  tajan@gmail.com
+                </div>
+              </div>
+
+              <div class="card text-center w-100">
+                <div class="card-header">
+                  <b>Location:</b>
+                </div>
+                <div class="card-body">
+                  Tajan School, in front of Baraka Mall 1st Settlement, Cairo, Egypt
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="container" style="max-width: 600px;">
-      <form class="text-start">
-        <div class="mb-3">
-          <label for="name" class="form-label">Enter your name:</label>
-          <input class="form-control get-in" type="text" id="name" required>
-        </div>
-
-        <div class="mb-3">
-          <label for="e-mail" class="form-label">Email:</label>
-          <input class="form-control get-in" id="e-mail" type="email" required>
-        </div>
-
-        <div class="mb-3">
-          <label for="message" class="form-label">Message:</label>
-          <textarea class="form-control" id="message" name="message" rows="5"></textarea>
-        </div>
-
-        <label for="grades">Choose your grade:</label>
-        
-        <select id="grades" name="grades" class="form-select mb-3">
-          <optgroup label="prepratory">
-          <option value="7A">7A</option>
-          <option value="7B">7B</option>
-          <option value="7C">7C</option>
-          <option value="7A+">7A+</option>
-          <option value="8A">8A</option>
-          <option value="8B">8B</option>
-          <option value="8C">8C</option>
-          <option value="9A">9A</option>
-          <option value="9B">9B</option>
-          <option value="9C">9C</option>
-          </optgroup>
-          <optgroup label="secondary">
-          <option value="10A">10A</option>
-          <option value="10B">10B</option>
-          <option value="10C">10C</option>
-          <option value="11A">11A</option>
-          <option value="11B">11B</option>
-          <option value="11C">11C</option>
-          <option value="12A">12A</option>
-          <option value="12B">12B</option>
-          <option value="12C">12C</option>
-          </optgroup>
-        </select>
-
-        <div class="form-check mb-3">
-          <input class="form-check-input" type="checkbox" id="checkbox">
-          <label class="form-check-label" for="checkbox">In Tajan</label>
-        </div>
-
-        <button class="btn btn-primary sub-button" type="submit">Submit</button>
-      </form>
-    </div>
-  </div>
-  </div>
   </div>
   <script src="js/all.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

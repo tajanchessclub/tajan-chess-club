@@ -201,6 +201,17 @@ span button:hover {
   display: inline-block;
 }
 
+.card-header {
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
+
+/* شيل max-width: 500px ومحاذاة margin: 0 auto وخليها كدة */
+.get-in-touch form {
+  text-align: left;
+  width: 100%;
+}
+
 /* end of get in touch */
 .tcc {
   color: rgb(212, 175, 55);
