@@ -175,14 +175,15 @@ span button:hover {
     font-size: 1.65rem;
     line-height: 1.65;
   }
-  text2 {
-    color: rgb(230, 229, 229);
-
+  .text2 {
+    /* color: rgba(230, 229, 229, 0.534); */
+    color: rgb(153, 161, 175);
     font-size: 1.15rem;
     line-height: 1.65;
   }
-  text3 {
-    color: rgb(230, 229, 229);
+  .text3 {
+    /* color: rgba(230, 229, 229, 0.671); */
+    color: rgb(153, 161, 175);
     font-size: 1rem;
     line-height: 1.65;
   }
