@@ -140,10 +140,10 @@ span button:hover {
     grid-auto-rows: min-content;
     display: grid;
     unicode-bidi: isolate;
-    color: var(--secondery-color);
+    background-color: var(--secondery-color);
+    outline-color: color-mix(in oklab, oklch(70.8% 0 0) 50%, transparent);
+    border-color: #0000001a;
+    
 }
 
-.\container\/card-header {
-    container: card-header / inline-size;
-}
 /* end of get in touch */
