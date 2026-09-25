@@ -10,6 +10,10 @@
   --spacing: 0.25rem;
 }
 
+.secondary-color {
+  color: var(--secondery-color) !important;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* height: 2000px; */
