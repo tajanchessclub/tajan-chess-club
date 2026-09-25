@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/tcc.css" />
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+
+    <!-- Email JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "kc3PS9fe6vJyU68pq",
+        });
+      })();
+    </script>
+
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- contact us -->
+    <script src="./js/contact.js"></script>
   </head>
 
   <body>
@@ -139,44 +158,53 @@
           <div class="container">
             <div class="row g-4 align-items-start">
               <div class="col-12 col-md-7 col-lg-8">
-                <form class="text-start m-0 w-100 style-form">
+                <form class="text-start m-0 w-100 style-form" id="contactForm">
                   <div class="mb-3">
-                    <label for="name" class="form-label"
+                    <label for="senderName" class="form-label"
                       >Enter your name:</label
                     >
                     <input
                       class="form-control get-in"
                       type="text"
-                      id="name"
+                      name="senderName"
+                      id="senderName"
                       required
                     />
                   </div>
 
                   <div class="mb-3">
-                    <label for="e-mail" class="form-label">Email:</label>
+                    <label for="senderEmail" class="form-label">Email:</label>
                     <input
                       class="form-control get-in"
-                      id="e-mail"
+                      name="senderEmail"
+                      id="senderEmail"
                       type="email"
                       required
                     />
                   </div>
 
                   <div class="mb-3">
-                    <label for="message" class="form-label">Message:</label>
+                    <label for="senderMessage" class="form-label">
+                      Message:
+                    </label>
                     <textarea
                       class="form-control"
-                      id="message"
-                      name="message"
+                      id="senderMessage"
+                      name="senderMessage"
                       rows="5"
+                      required
                     ></textarea>
                   </div>
 
                   <div class="mb-3">
-                    <label for="grades" class="form-label">
+                    <label for="senderGrade" class="form-label">
                       Choose your grade:
                     </label>
-                    <select id="grades" name="grades" class="form-select">
+                    <select
+                      id="senderGrade"
+                      name="senderGrade"
+                      class="form-select"
+                    >
                       <option value="None">None</option>
                       <optgroup label="Boys Preparatory">
                         <option value="7A">7A</option>
@@ -209,9 +237,10 @@
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      id="checkbox"
+                      name="senderIntajan"
+                      id="senderIntajan"
                     />
-                    <label class="form-check-label" for="checkbox"
+                    <label class="form-check-label" for="senderIntajan"
                       >In Tajan</label
                     >
                   </div>
@@ -316,6 +345,5 @@
     ></div> -->
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js.map"></script>
   </body>
 </html>
