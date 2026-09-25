@@ -44,6 +44,10 @@ body {
   color: var(--hover-color) !important;
 }
 
+.navbar-toggler {
+  background-color: var(--secondery-color);
+}
+
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   color: var(--secondery-color);
@@ -64,7 +68,7 @@ body {
     url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 84px);
   background-position: center;
 }
 
@@ -183,7 +187,6 @@ span button:hover {
   color: white;
   background-color: var(--secondery-color);
   border-radius: 7px;
-  width: 500px;
 }
 
 .sub-button:hover {
