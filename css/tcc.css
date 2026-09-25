@@ -14,17 +14,20 @@
   color: var(--secondery-color) !important;
 }
 
+.text-white-color {
+  color: rgba(255, 255, 255, 0.838);
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* height: 2000px; */
 }
-/* start of navbar */
+/* start of bar */
 .navbar {
   background-color: black;
   border-bottom: 4px solid var(--secondery-color);
   padding-block: calc(0.25rem * 4);
   padding-inline: calc(0.25rem * 6);
-  border-bottom-width: 4px;
+  border-bottom-width: 3px;
   z-index: 50;
   top: calc(0.25rem * 0);
   transition-property: opacity;
@@ -111,11 +114,15 @@ span button:hover {
 /* end of hero */
 /* start of about */
 .img-div {
-  border: 8px solid var(--secondery-color);
+  border: 6px solid var(--secondery-color);
   border-radius: 5px;
   height: 500px;
 }
-
+.img-div-2 {
+  border: 6px solid rgba(255, 255, 255, 0.838);
+  border-radius: 5px;
+  overflow: hidden;
+}
 .about h2 {
   font-size: 3rem;
 }
@@ -286,7 +293,7 @@ iframe {
   }
 }
 
-.our-programs {
+.about-tajan {
   background-color: black;
-  height: 100px;
+  padding: 10px;
 }
