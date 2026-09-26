@@ -115,7 +115,25 @@ span button:hover {
   font-size: 1.15rem;
   line-height: 1.65;
 }
+.since-1 {
+  font-size: 2.25rem;
+  fonr-color: rgb(212, 175, 55);
+}
 
+.since-2 {
+  font-size: 1.25rem;
+  color: black;
+}
+
+.member-1 {
+  font-size: 2.25rem;
+  fonr-color: rgb(212, 175, 55);
+}
+
+.member-2 {
+  font-size: 1.25rem;
+  color: black;
+}
 /* end of about */
 /*get in touch*/
 
