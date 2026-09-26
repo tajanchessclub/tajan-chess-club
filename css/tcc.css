@@ -7,6 +7,11 @@
   --secondery-color: rgb(212, 175, 55);
   --primary-color: black;
   --hover-color: #8f7318;
+  --spacing: 0.25rem;
+}
+
+.secondary-color {
+  color: var(--secondery-color) !important;
 }
 
 body {
@@ -43,6 +48,10 @@ body {
   color: var(--hover-color) !important;
 }
 
+.navbar-toggler {
+  background-color: var(--secondery-color);
+}
+
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   color: var(--secondery-color);
@@ -63,7 +72,7 @@ body {
     url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 84px);
   background-position: center;
 }
 
@@ -163,6 +172,67 @@ span button:hover {
   color: rgb(105, 101, 101);
 }
 
+.get-in-touch form {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.get-in-touch label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.get-in-touch input[type="text"],
+.get-in-touch input[type="email"],
+.get-in-touch textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  border-color: var(--secondery-color);
+}
+
+.get-in-touch .check-span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch .check-span label {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.sub-button {
+  color: white;
+  background-color: var(--secondery-color);
+  border-radius: 7px;
+}
+
+.sub-button:hover {
+  color: var(--secondery-color);
+  background-color: var(--primary-color);
+}
+.card {
+  border: 1px solid var(--secondery-color);
+  box-shadow: 1px 2px 8px var(--secondery-color);
+}
+.card-header {
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
+
+.get-in-touch form {
+  text-align: left;
+  width: 100%;
+}
+
+iframe {
+  border-radius: 8px;
+}
+
 .container-card {
   padding-top: calc(1.25rem * 6);
   padding-inline: calc(0.25 * 6);
@@ -179,6 +249,17 @@ span button:hover {
   container: card-header / inline-size;
 }
 /* end of get in touch */
+
+.vertical-hr {
+  width: 0px;
+  height: 200px;
+  border: none;
+  border-left: 2px solid #333;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+/* end of get in touch */
 .tcc {
   color: rgb(212, 175, 55);
 }
@@ -193,14 +274,15 @@ span button:hover {
     font-size: 1.65rem;
     line-height: 1.65;
   }
-  text2 {
-    color: rgb(230, 229, 229);
-
+  .text2 {
+    /* color: rgba(230, 229, 229, 0.534); */
+    color: rgb(153, 161, 175);
     font-size: 1.15rem;
     line-height: 1.65;
   }
-  text3 {
-    color: rgb(230, 229, 229);
+  .text3 {
+    /* color: rgba(230, 229, 229, 0.671); */
+    color: rgb(153, 161, 175);
     font-size: 1rem;
     line-height: 1.65;
   }
@@ -220,4 +302,9 @@ span button:hover {
   .img-div {
     height: 600px;
   }
+}
+
+.our-programs {
+  background-color: black;
+  height: 100px;
 }
