@@ -3,30 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TCC</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/tcc.css" />
-    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
-
-    <!-- Email JS -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "kc3PS9fe6vJyU68pq",
-        });
-      })();
-    </script>
-
-    <!-- Sweet Alert 2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <!-- contact us -->
-    <script src="./js/contact.js"></script>
+    <title>TCC</title>
   </head>
 
   <body>
@@ -34,7 +15,7 @@
       <div class="container-fluid">
         <a
           class="navbar-brand d-flex align-items-center justify-content-center gap-3"
-          href="index.html"
+          href="#"
         >
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="./img/logo.svg" alt="" />
@@ -58,32 +39,27 @@
         </button>
 
         <div
-          class="collapse navbar-collapse flex-grow-0"
+          class="collapse navbar-collapse flex-lg-grow-0"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about"
-                >About TCC</a
-              >
+              <a class="nav-link" aria-current="page" href="#about">
+                About TCC
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about-tajan"
-                >About Tajan</a
-              >
+              <a class="nav-link" aria-current="page" href="#about-tajan">
+                About Tajan
+              </a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Events</a>
-            </li> -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact"
-                >Contact</a
-              >
+              <a class="nav-link" aria-current="page" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -192,7 +168,7 @@
                 and faith. In establishing Tajan Azharian Language Institutes,
                 we aspire to more than just high-level educational work,
                 advanced scientific qualification, or distinguished religious
-                education. It’s all of them together. In addition, Tajan is an
+                education. It's all of them together. In addition, Tajan is an
                 integrated cultural and civilizational system that aims to
                 become an important milestone in building and developing a
                 promising Muslim generation crowned with knowledge and faith.
@@ -263,14 +239,14 @@
                       name="senderGrade"
                       class="form-select"
                     >
-                      <option value="None">None</option>
+                      <option value="none">None</option>
                       <optgroup label="Preparatory">
-                        <option value="7A">Preparatory Boys</option>
-                        <option value="7B">Preparatory Girls</option>
+                        <option value="boysPrep">Preparatory Boys</option>
+                        <option value="girlsPrep">Preparatory Girls</option>
                       </optgroup>
                       <optgroup label="Secondary">
-                        <option value="10A">Secondary Boys</option>
-                        <option value="10B">Secondary Girls</option>
+                        <option value="boysSec">Secondary Boys</option>
+                        <option value="girlsSec">Secondary Girls</option>
                       </optgroup>
                     </select>
                   </div>
@@ -381,11 +357,17 @@
       </div>
     </footer>
 
-    <!-- <div
-      data-slot="card-header"
-      class="@container/card-header container-card text-center justify-content-center"
-    ></div> -->
+    <!-- bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- dont awesome -->
     <script src="js/all.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Email JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

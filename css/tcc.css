@@ -314,6 +314,13 @@ iframe {
   }
 }
 
+@media (max-width: 991.98px) {
+  #about,
+  #about-tajan,
+  #contact {
+    scroll-margin-top: 180px;
+  }
+}
 .about-tajan {
   background-color: black;
   padding: 10px;
