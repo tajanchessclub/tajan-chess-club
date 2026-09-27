@@ -90,6 +90,9 @@ body {
   opacity: 0.8;
 }
 
+.hero a {
+  width: 150px;
+}
 span button {
   font-size: 0.857rem;
   font-weight: 500;
