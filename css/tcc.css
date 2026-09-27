@@ -126,11 +126,13 @@ span button:hover {
   border-radius: 5px;
   overflow: hidden;
 }
-.about h2 {
+.about h2,
+.about-tajan h2 {
   font-size: 3rem;
 }
 
-.about p {
+.about p,
+.about-tajan p {
   font-size: 1.15rem;
   line-height: 1.65;
 }
@@ -297,19 +299,46 @@ iframe {
   }
 }
 
-@media (max-width: 575.98px) {
-  .img-div {
+/* about tajan */
+.about-tajan {
+  background-color: black;
+  padding: calc(3rem + 20px) 10px;
+}
+
+.about-tajan .img-div {
+  aspect-ratio: 1/1;
+  max-height: 450px;
+}
+/* end of about tajan */
+
+@media (max-width: 450px) {
+  .about-tajan .img-div {
+    height: 280px;
+  }
+}
+
+@media (min-width: 450.98px) and (max-width: 575.98px) {
+  .about .img-div {
     height: 400px;
   }
-  .about p {
+  .about p,
+  .about-tajan p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+  .about-tajan .img-div {
+    height: 350px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .img-div {
+  .about .img-div {
     height: 600px;
+  }
+  .about-tajan .img-div {
+    aspect-ratio: 4/5;
+    height: 400px;
+    margin: 0 !important;
   }
 }
 
@@ -320,7 +349,10 @@ iframe {
     scroll-margin-top: 180px;
   }
 }
-.about-tajan {
-  background-color: black;
-  padding: 10px;
+
+@media (min-width: 992px) {
+  .about-tajan .img-div {
+    aspect-ratio: 1/1;
+    height: 400px;
+  }
 }
